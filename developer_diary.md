@@ -6,15 +6,19 @@
 
 <img width="1530" height="866" alt="image" src="https://github.com/user-attachments/assets/c156a80d-85f4-4e82-b8c6-94f922bfa540" />
 
-
 **Goal:**  
 Set up the development environment and install required libraries for the Smart Finance Assistant.
 
 **AI Use:**  
-Used AI to help configure the Hands-on-AI environment, troubleshoot installation issues, and ensure compatibility between Gradio, pandas, and the external AI API service.
+Used AI to configure the Hands-on-AI environment, resolve installation issues, and ensure correct setup of dependencies.
 
 **What I learned:**  
-I learned how external AI services are integrated into a Python notebook environment and how environment configuration (API keys and model selection) is essential for system functionality. I also understood how small setup issues can break an entire workflow if dependencies are not correctly installed.
+I learned how external AI APIs are integrated into a Python notebook and how environment configuration impacts the entire workflow.
+
+**Reflection:**  
+- **What worked:** Installation and setup went smoothly after following AI guidance.  
+- **What didn’t:** Initial issues with missing packages and version mismatches caused errors.  
+- **What I learned:** I learned the importance of environment setup and how small configuration mistakes can break the entire system.
 
 ---
 
@@ -26,10 +30,15 @@ I learned how external AI services are integrated into a Python notebook environ
 Develop a reliable data cleaning pipeline for financial transaction CSV files.
 
 **AI Use:**  
-AI was used to design data preprocessing logic, including handling currency symbols, converting data types, managing missing values, and grouping transactions by category for analysis.
+AI assisted in designing data preprocessing logic including cleaning currency symbols, handling missing values, and grouping transactions.
 
 **What I learned:**  
-I learned that real-world financial data is often inconsistent and requires significant cleaning before meaningful analysis can be performed. I also gained an understanding of how pandas can be used to transform raw transactional data into structured insights suitable for business decision-making.
+I learned that real financial data is messy and must be cleaned before meaningful analysis can be performed.
+
+**Reflection:**  
+- **What worked:** Successfully cleaned and structured transaction data using pandas.  
+- **What didn’t:** Initially struggled with converting string currency values into numeric format.  
+- **What I learned:** I learned how essential data cleaning is before any financial analysis can be done.
 
 ---
 
@@ -38,13 +47,18 @@ I learned that real-world financial data is often inconsistent and requires sign
 <img width="1530" height="965" alt="image" src="https://github.com/user-attachments/assets/0d52a457-1f12-41a8-ae57-4c7748a44a11" />
 
 **Goal:**  
-Integrate AI chatbot functionality and implement a retrieval-based (RAG) system for financial question answering.
+Integrate chatbot functionality and implement a RAG system for financial insights.
 
 **AI Use:**  
-AI was used to design the chatbot interaction flow, improve response quality, and structure the RAG system so that user queries could be answered using transaction data context. It also assisted in refining prompts to make responses more financially relevant and user-friendly.
+AI helped design chatbot behaviour, improve response quality, and structure retrieval-based answers using transaction data.
 
 **What I learned:**  
-I learned how AI systems can act as contextual financial assistants rather than simple chatbots. I also gained insight into how retrieval-augmented generation improves response accuracy by grounding answers in real data.
+I learned how AI can act as a contextual financial assistant using real data.
+
+**Reflection:**  
+- **What worked:** Chatbot and RAG system successfully returned meaningful responses.  
+- **What didn’t:** Early versions gave generic responses without proper data grounding.  
+- **What I learned:** I learned how important context is in AI systems to produce relevant and accurate answers.
 
 ---
 
@@ -53,13 +67,18 @@ I learned how AI systems can act as contextual financial assistants rather than 
 <img width="1535" height="797" alt="image" src="https://github.com/user-attachments/assets/9ef39e23-2d4c-4421-b271-f3130cde851f" />
 
 **Goal:**  
-Build a custom savings calculator tool to simulate financial planning scenarios.
+Build a savings calculator tool for financial planning.
 
 **AI Use:**  
-AI assisted in designing the mathematical logic for projecting savings over time and converting it into a reusable function that could be integrated into an agent-based system.
+AI helped design formulas for savings projection and convert them into a reusable function.
 
 **What I learned:**  
-I learned how simple mathematical models can be transformed into practical financial tools. I also understood how AI agents can extend functionality by turning functions into reusable tools for users.
+I learned how simple calculations can be transformed into practical financial tools.
+
+**Reflection:**  
+- **What worked:** Savings calculator produced accurate time-to-goal results.  
+- **What didn’t:** Initial version didn’t handle invalid inputs properly.  
+- **What I learned:** I learned how financial planning tools can be automated using simple mathematical logic.
 
 ---
 
@@ -68,10 +87,16 @@ I learned how simple mathematical models can be transformed into practical finan
 <img width="1535" height="868" alt="image" src="https://github.com/user-attachments/assets/68556db7-2ccc-499e-873a-0c5c97f4aa35" />
 
 **Goal:**  
-Develop a comprehensive testing suite to validate the full Smart Finance Assistant system.
+Develop a full testing suite to validate system functionality.
 
 **AI Use:**  
-AI was used to generate test cases covering normal scenarios, edge cases, and invalid data inputs. It also helped design assertion-based tests to ensure correctness of calculations and system reliability.
+AI generated test cases including edge cases, invalid inputs, and system validation checks.
 
 **What I learned:**  
-I learned the importance of systematic testing in ensuring reliability of data-driven applications. I also gained experience in identifying edge cases such as refunds, missing values, and extreme transactions, which are common in real financial datasets.
+I learned the importance of testing to ensure reliability and robustness in data-driven applications.
+
+**Reflection:**  
+- **What worked:** Most core functions passed test cases successfully.  
+- **What didn’t:** One or two edge cases initially failed due to missing validation logic.  
+- **What I learned:** I learned how critical edge case testing is for building reliable real-world systems.
+
