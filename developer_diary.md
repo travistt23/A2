@@ -4,7 +4,8 @@
 
 ## Week 8 – Project Setup
 
-<img width="1522" height="797" alt="image" src="https://github.com/user-attachments/assets/4d3b5029-41e6-4291-8cbd6b2d05b0" />
+<img width="1530" height="866" alt="image" src="https://github.com/user-attachments/assets/c156a80d-85f4-4e82-b8c6-94f922bfa540" />
+
 
 **Goal:**  
 Set up the development environment and install required libraries for the Smart Finance Assistant.
