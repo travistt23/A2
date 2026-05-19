@@ -103,25 +103,80 @@ I learned the importance of testing to ensure reliability and robustness in data
 🧠 AI-Helped Development 
 📌 Overview
 
-AI tools (ChatGPT and hands-on-ai) were used throughout this project to support development, debugging, and design. All AI-generated outputs were reviewed, tested, and modified before use.
+Throughout the development of the Smart Finance Assistant, AI tools (including ChatGPT and hands-on-ai) were used as a collaborative development aid. AI supported ideation, coding, debugging, and testing across all stages of the project. All AI-generated outputs were critically reviewed, tested in Colab, and modified where necessary to ensure correctness and alignment with project requirements.
 
 🤖 How AI Was Used
-Problem Design: Helped refine the finance assistant idea and features (budgeting, spending analysis).
-Data Processing: Assisted with CSV cleaning (removing $, handling missing values, converting data types).
-Chatbot: Generated financial advisor-style prompts and response structure.
-RAG System: Supported setup of retrieval-based Q&A logic for finance questions.
-Custom Tools: Helped design savings calculator logic and formulas.
-Testing: Generated edge cases (refunds, invalid data, missing values) and test cases.
-⚠️ Validation
+📊 Problem Design & Planning
 
-All AI-generated code was:
+AI assisted in refining the project scope by suggesting relevant personal finance use cases such as budgeting, spending awareness, and savings tracking. It also helped structure the six-step development methodology into a clear workflow.
 
-tested in Colab
+🧹 Data Processing & Cleaning
+
+AI was used to design and improve CSV handling logic, including:
+
+removing currency symbols (e.g. $)
+converting string values to numeric format
+handling missing or inconsistent transaction data
+grouping and aggregating spending by category
+
+This improved the reliability of financial analysis outputs.
+
+💬 Chatbot Development
+
+AI helped design the financial assistant chatbot personality, ensuring responses were:
+
+supportive and non-judgemental
+easy to understand for users
+focused on practical financial advice
+
+It also assisted in structuring prompts for consistent conversational behaviour.
+
+🔍 RAG System Integration
+
+AI supported the design of a retrieval-augmented generation system by helping structure:
+
+document ingestion logic
+query handling flow
+response generation based on transaction context and financial guidance
+
+This enabled more context-aware financial Q&A functionality.
+
+🛠️ Custom Tool Development
+
+AI assisted in building a savings calculator tool by helping define the formula logic for:
+
+time required to reach savings goals
+impact of monthly contributions
+structured output formatting for user readability
+🧪 Testing & Debugging
+
+AI generated a variety of test cases including:
+
+normal spending patterns
+edge cases (refunds, zero values, large transactions)
+invalid or missing data scenarios
+
+It also supported debugging during integration of multiple components (chatbot, RAG, UI, tools).
+
+⚠️ Validation and Responsibility
+
+All AI-generated suggestions were not used directly. Instead, they were:
+
+tested in a live Colab environment
+modified to fit project requirements
 debugged when errors occurred
-adjusted to match project requirements
+validated against expected outputs
 
-AI was used as an assistant, not a replacement for development.
+This ensured correctness and maintained responsibility for all final implementations.
 
 🧠 Reflection
 
-AI helped speed up development and improve structure, especially for RAG and data cleaning. However, some outputs required correction, reinforcing the importance of understanding and validating all generated code.
+Using AI significantly accelerated development and improved the structure of the system, particularly in data processing and RAG design. However, not all AI outputs were immediately correct, requiring iterative debugging and refinement.
+
+This process highlighted the importance of:
+
+understanding generated code rather than copying it directly
+validating outputs through testing
+combining AI assistance with critical thinking and problem-solving skills
+
+Overall, AI acted as a development accelerator and learning support tool, rather than a replacement for technical decision-making.
