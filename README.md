@@ -5,7 +5,7 @@ This project is a Python-based AI-powered finance assistant that helps users ana
 
 It uses:
 - Pandas for data analysis
-- hands-on-ai for chat, RAG, and tools
+- Hands-on-ai for chat, RAG, and tools
 - Gradio for UI
 
 ---
