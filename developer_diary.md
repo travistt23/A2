@@ -114,10 +114,10 @@ AI assisted in refining the project scope by suggesting relevant personal financ
 
 AI was used to design and improve CSV handling logic, including:
 
-removing currency symbols (e.g. $)
-converting string values to numeric format
-handling missing or inconsistent transaction data
-grouping and aggregating spending by category
+Removing currency symbols (e.g. $)
+Converting string values to numeric format
+Handling missing or inconsistent transaction data
+Grouping and aggregating spending by category
 
 This improved the reliability of financial analysis outputs.
 
@@ -125,9 +125,9 @@ This improved the reliability of financial analysis outputs.
 
 AI helped design the financial assistant chatbot personality, ensuring responses were:
 
-supportive and non-judgemental
-easy to understand for users
-focused on practical financial advice
+Supportive and non-judgemental
+Easy to understand for users
+Focused on practical financial advice
 
 It also assisted in structuring prompts for consistent conversational behaviour.
 
@@ -135,9 +135,9 @@ It also assisted in structuring prompts for consistent conversational behaviour.
 
 AI supported the design of a retrieval-augmented generation system by helping structure:
 
-document ingestion logic
-query handling flow
-response generation based on transaction context and financial guidance
+Document ingestion logic
+Query handling flow
+Response generation based on transaction context and financial guidance
 
 This enabled more context-aware financial Q&A functionality.
 
@@ -145,16 +145,16 @@ This enabled more context-aware financial Q&A functionality.
 
 AI assisted in building a savings calculator tool by helping define the formula logic for:
 
-time required to reach savings goals
-impact of monthly contributions
-structured output formatting for user readability
+Time required to reach savings goals
+Impact of monthly contributions
+Structured output formatting for user readability
 🧪 Testing & Debugging
 
 AI generated a variety of test cases including:
 
-normal spending patterns
-edge cases (refunds, zero values, large transactions)
-invalid or missing data scenarios
+Normal spending patterns
+Edge cases (refunds, zero values, large transactions)
+Invalid or missing data scenarios
 
 It also supported debugging during integration of multiple components (chatbot, RAG, UI, tools).
 
@@ -162,10 +162,10 @@ It also supported debugging during integration of multiple components (chatbot, 
 
 All AI-generated suggestions were not used directly. Instead, they were:
 
-tested in a live Colab environment
-modified to fit project requirements
-debugged when errors occurred
-validated against expected outputs
+Tested in a live Colab environment
+Modified to fit project requirements
+Debugged when errors occurred
+Validated against expected outputs
 
 This ensured correctness and maintained responsibility for all final implementations.
 
@@ -175,8 +175,8 @@ Using AI significantly accelerated development and improved the structure of the
 
 This process highlighted the importance of:
 
-understanding generated code rather than copying it directly
-validating outputs through testing
-combining AI assistance with critical thinking and problem-solving skills
+Understanding generated code rather than copying it directly
+Validating outputs through testing
+Combining AI assistance with critical thinking and problem-solving skills
 
 Overall, AI acted as a development accelerator and learning support tool, rather than a replacement for technical decision-making.
