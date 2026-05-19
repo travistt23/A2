@@ -100,3 +100,31 @@ I learned the importance of testing to ensure reliability and robustness in data
 - **What didn’t:** One or two edge cases initially failed due to missing validation logic.  
 - **What I learned:** I learned how critical edge case testing is for building reliable real-world systems.
 
+
+
+
+🧠 AI-Helped Development 
+📌 Overview
+
+AI tools (ChatGPT and hands-on-ai) were used throughout this project to support development, debugging, and design. All AI-generated outputs were reviewed, tested, and modified before use.
+
+🤖 How AI Was Used
+Problem Design: Helped refine the finance assistant idea and features (budgeting, spending analysis).
+Data Processing: Assisted with CSV cleaning (removing $, handling missing values, converting data types).
+Chatbot: Generated financial advisor-style prompts and response structure.
+RAG System: Supported setup of retrieval-based Q&A logic for finance questions.
+Custom Tools: Helped design savings calculator logic and formulas.
+Testing: Generated edge cases (refunds, invalid data, missing values) and test cases.
+⚠️ Validation
+
+All AI-generated code was:
+
+tested in Colab
+debugged when errors occurred
+adjusted to match project requirements
+
+AI was used as an assistant, not a replacement for development.
+
+🧠 Reflection
+
+AI helped speed up development and improve structure, especially for RAG and data cleaning. However, some outputs required correction, reinforcing the importance of understanding and validating all generated code.
