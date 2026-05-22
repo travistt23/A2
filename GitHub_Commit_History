@@ -1,1 +1,5 @@
+📅 Week 8 – Project Setup
+Commit: Set up development environment and project structure for Smart Finance Assistant
+This commit established the foundation of the project by configuring the development environment and installing required dependencies. Initial setup issues related to missing packages and version mismatches were resolved during this stage. This ensured the system was ready for further development and AI integration.
+
 
