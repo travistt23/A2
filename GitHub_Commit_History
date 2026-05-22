@@ -1,5 +1,44 @@
 📅 Week 8 – Project Setup
+
 Commit: Set up development environment and project structure for Smart Finance Assistant
-This commit established the foundation of the project by configuring the development environment and installing required dependencies. Initial setup issues related to missing packages and version mismatches were resolved during this stage. This ensured the system was ready for further development and AI integration.
+
+This commit established the foundation of the project by configuring the development environment and installing required 
+dependencies. Initial setup issues related to missing packages and version mismatches were resolved during this stage. 
+This ensured the system was ready for further development and AI integration.
+
+📅 Week 9 – Data Processing Pipeline
+
+Commit: Implement data cleaning and preprocessing pipeline for financial transactions
+
+This commit introduced a structured data processing system for handling financial CSV files. Currency symbols were
+cleaned, missing values were managed, and transaction data was properly formatted using pandas. This step was
+essential to ensure accurate financial analysis.
+
+📅 Week 10 – AI Integration & Chatbot Development
+
+Commit: Integrate chatbot functionality and implement RAG-based financial assistant system
+
+This commit focused on integrating AI-driven chatbot functionality. A retrieval-augmented generation (RAG) system
+was implemented to allow the assistant to respond using real transaction data. Early versions were refined to 
+improve contextual accuracy and reduce generic responses.
+
+📅 Week 11 – Tool Development & Automation
+
+Commit: Develop savings calculator tool for financial planning automation
+
+This commit introduced a savings projection tool that calculates progress toward financial goals. AI assistance was
+used to design and refine formulas into reusable functions. Input validation was also improved to handle incorrect 
+or missing user inputs.
+
+📅 Week 12 – Testing & System Validation
+
+Commit: Develop test suite for validating Smart Finance Assistant functionality
+
+This final commit focused on testing and debugging the system. A structured test suite was created to evaluate core
+functions, including edge cases and invalid inputs. Several issues were identified and fixed, improving overall 
+system reliability and robustness.
+
+
+
 
 
